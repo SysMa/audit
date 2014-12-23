@@ -1,0 +1,32 @@
+URLs - TOOLs:
+https://software.intel.com/en-us/articles/pintool-downloads
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/sec-Defining_Audit_Rules_and_Controls_in_the_audit.rules_file.html
+https://www.suse.com/documentation/sles11/singlehtml/audit_quickstart/audit_quickstart.html
+https://people.redhat.com/sgrubb/audit/
+http://blog.profitbricks.com/top-47-log-management-tools/
+https://doc.opensuse.org/products/draft/SLES/SLES-security_sd_draft/cha.audit.comp.html
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security_Guide/sec-Understanding_Audit_Log_Files.html
+https://github.com/wvanbergen/request-log-analyzer
+
+URLs - HTTPD:
+http://httpd.apache.org/dev/debugging.html
+http://httpd.apache.org/docs/2.2/programs/configure.html
+http://httpd.apache.org/docs/2.2/install.html
+
+URLs - Source:
+http://vault.centos.org/6.6/os/Source/SPackages/
+
+URLs - Firefox:
+http://trusche.github.io/blog/2011/09/29/logging-outgoing-http-requests/
+https://github.com/trusche/httplog
+https://github.com/prekageo/http-request-logger
+https://developer.mozilla.org/en-US/docs/Configuring_Build_Options
+https://developer.mozilla.org/en-US/docs/Simple_Firefox_build/Linux_and_MacOS_build_preparation
+https://developer.mozilla.org/en-US/docs/Extension_Versioning,_Update_and_Compatibility
+
+firefox:
+./configure --prefix=/home/bet/apps/bin --disable-webm --disable-libjpeg-turbo --disable-necko-wifi --enable-debug-symbols=-g --disable-optimize --disable-parental-controls --disable-elf-hack
+make
+make install
+
+
