@@ -4,8 +4,8 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>http-request-logger@prekageo</em:id>
-    <em:version>0.1</em:version>
+    <em:id>requestlogger@shiqing</em:id>
+    <em:version>1</em:version>
     <em:type>2</em:type>
 
     <!-- Target Application this extension can install into,
@@ -14,14 +14,13 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>5.*</em:maxVersion>
+        <em:maxVersion>11.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>HTTP Request Logger</em:name>
-    <em:description>Logs HTTP Requests to a file.</em:description>
-    <em:creator>George Prekas</em:creator>
-    <em:homepageURL>http://shiftlock.wordpress.com/2011/07/30/http-request-logger-add-on-for-mozilla-firefox/</em:homepageURL>
+    <em:name>Request Logger</em:name>
+    <em:description>Logs requests to file http-request-logger.txt on desktop.</em:description>
+    <em:creator>Shiqing</em:creator>
   </Description>
 </RDF>
